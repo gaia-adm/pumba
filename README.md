@@ -1,4 +1,5 @@
 # Pumba: chaos testing tool for Docker [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Breaking%20Docker%20containers%20on%20purpose%20with%20Pumba&url=https://github.com/alexei-led/pumba&via=alexeiled&hashtags=docker,chaosengineering,chaos,breakthingsonpurpose,kubernetes)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falexei-led%2Fpumba.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Falexei-led%2Fpumba?ref=badge_shield)
 
 Pumba is a chaos testing command line tool for Docker containers. Pumba disturbs your containers by crashing containerized application, emulating network failures and stress-testing container resources (cpu, memory, fs, io, and others).
 
@@ -479,3 +480,6 @@ docker build -t pumba -f docker/Dockerfile .
 ## License
 
 Code is under the [Apache License v2](https://www.apache.org/licenses/LICENSE-2.0.txt).
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falexei-led%2Fpumba.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Falexei-led%2Fpumba?ref=badge_large)
